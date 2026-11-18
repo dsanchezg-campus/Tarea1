@@ -16,15 +16,24 @@ Incluye una página principal con un mensaje introductorio, una tabla de horario
 
 Este proyecto no requiere instalar dependencias ni servidores externos, ya que está desarrollado únicamente con HTML. Para obtener una copia local:
 
-**1.** Clona el repositorio en tu equipo local:
-```
+#### **1.** Clona el repositorio en tu equipo local:
+```bash
 git clone https://github.com/dsanchezg-campus/Tarea1.git
 ```
-**2.** Accede al directorio del proyecto:
-```
+#### **2.** Accede al directorio del proyecto:
+```bash
 cd Tarea1
 ```
-**3.** Ejecuta `index.html` directamente en cualquier navegador
+#### **3.** Ejecuta `index.html` 
+Puedes abrir el archivo `index.html` haciendo doble clic sobre él desde tu explorador de archivos, o ejecutarlo desde la terminal según tu sistema operativo:
+- **Windows:**
+  ```bash
+  start index.html
+  ```
+- **Linux:**
+  ```bash
+  xdg-open index.html
+  ```
 
 ## Mejoras
 
