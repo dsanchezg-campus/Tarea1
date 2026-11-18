@@ -74,5 +74,40 @@
             </tr>
         </tbody>
     </table>
+    
+    <section class="form-container">
+        <h2>Contáctanos</h2>
+        
+        <form action="" method="POST">
+            
+            <div class="form-group">
+                <label for="nombre">Nombre completo: *</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre..." required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico: *</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefono">Teléfono (opcional)</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000">
+            </div>
+
+            <div class="form-group">
+                <label for="asunto">Asunto *</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Motivo de tu consulta" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí tu mensaje..." required></textarea>
+            </div>
+
+            <button type="submit">Enviar mensaje</button>
+            
+        </form>
+    </section>
 </body>
 </html>
